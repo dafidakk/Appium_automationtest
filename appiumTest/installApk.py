@@ -15,6 +15,7 @@ desired_caps['deviceName'] = 'Android'
 desired_caps['platformName'] = 'Android'
 #desired_caps['app'] = str(Path().absolute().parent) + '\\app\\keep.apk'
 desired_caps['app'] = str(Path().absolute().parent) + '\\app\\hepsiburadanew.apk'
+desired_caps['app'] = str(Path().absolute().parent) + '\\app\\TrendyolSamsungN.apk'
 
 
 driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)

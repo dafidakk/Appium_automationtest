@@ -1,7 +1,7 @@
 import time
 
 from appium import webdriver
-from appium.webdriver.appium_service import AppiumService
+# from appium.webdriver.appium_service import AppiumService
 from selenium.webdriver.common.by import By
 
 desired_caps = dict(
@@ -52,5 +52,3 @@ driver.hide_keyboard()
 
 time.sleep(2)
 driver.quit()
-
-
