@@ -12,9 +12,19 @@ class ScrollUtil:
     @staticmethod
     def swipe_up(how_many_swipes, driver):
         for i in range(1, how_many_swipes + 1):
-            driver.swipe(947, 1800, 947, 500, 1)
+            driver.swipe(947, 1500, 947, 500, 1)
 
     @staticmethod
     def swipe_down(how_many_swipes, driver):
         for i in range(1, how_many_swipes + 1):
-            driver.swipe(947, 500, 947, 1800, 1)
+            driver.swipe(947, 500, 947, 1500, 1)
+
+    @staticmethod
+    def swipe_right(how_many_swipes, driver):
+        for i in range(1, how_many_swipes + 1):
+            driver.swipe(200, 770, 800, 770, 1)
+
+    @staticmethod
+    def swipe_left(how_many_swipes, driver):
+        for i in range(1, how_many_swipes + 1):
+            driver.swipe(800, 770, 200, 770, 1)
