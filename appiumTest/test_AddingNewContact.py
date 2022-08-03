@@ -9,7 +9,8 @@ desired_caps = dict(
     deviceName='Android',
     platformName='Android',
     appPackage='com.android.contacts',
-    appActivity='com.android.contacts.activities.PeopleActivity'
+    appActivity='com.android.contacts.activities.PeopleActivity',
+    noReset=True
 
 )
 
